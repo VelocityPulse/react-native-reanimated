@@ -23,6 +23,8 @@ plugins {
 }
 
 android {
+    namespace "com.swmansion.reanimated"
+
     compileSdkVersion safeExtGet('compileSdkVersion', 28)
     buildToolsVersion safeExtGet('buildToolsVersion', '28.0.3')
     defaultConfig {
